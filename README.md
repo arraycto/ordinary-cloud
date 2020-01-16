@@ -34,7 +34,4 @@
     5，hystrix本地服务监控 http://localhost:9010/actuator/hystrix.stream
     6，config手动刷新 http://localhost:9010/actuator/refresh
     
-### 打赏作者
-![Image text](https://github.com/HyacinthFlower/ordinary-cloud/blob/master/zfb.png)
-    
 ### 作者微信 z967882
