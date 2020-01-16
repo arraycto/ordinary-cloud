@@ -24,6 +24,7 @@
     4，分布式事务使用txlcn框架实现。
     5，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。）
     6，数据库最好使用5.6及以上版本。
+    7，本地安装rabbitmq，安装教程在rabbitmq.md里面
     
 ### 能用到的链接
     1，eureka可视化界面 http://localhost:8761
