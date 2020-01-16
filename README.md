@@ -20,9 +20,10 @@
 ### 说明
     1，JDK使用的是11，idea自带JDK。如果你用的是2019版本之上的idea，可以直接clone就能跑项目了。
     2，SpringBoot使用的2.2.2.RELEASE(目前最新版)。
-    3，分布式事务使用txlcn框架实现。
-    4，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。）
-    5，数据库最好使用5.6及以上版本。
+    3，SpringCloud使用Hoxton.SR1。
+    4，分布式事务使用txlcn框架实现。
+    5，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。）
+    6，数据库最好使用5.6及以上版本。
     
 ### 能用到的链接
     1，eureka可视化界面 http://localhost:8761
@@ -32,5 +33,6 @@
     5，turbine监控信息 http://localhost:8010/clusters
     5，hystrix本地服务监控 http://localhost:9010/actuator/hystrix.stream
     6，config手动刷新 http://localhost:9010/actuator/refresh
+    7，bus自动刷新 http://localhost:8030/actuator/bus-refresh
     
 ### 作者微信 z967882
