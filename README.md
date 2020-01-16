@@ -22,7 +22,7 @@
     2，SpringBoot使用的2.2.2.RELEASE(目前最新版)。
     3，SpringCloud使用Hoxton.SR1。
     4，分布式事务使用txlcn框架实现。
-    5，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。）
+    5，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。解压redis.zip直接启动就行了。）
     6，数据库最好使用5.6及以上版本。mysql库表介绍在数据库表.md。
     7，本地安装rabbitmq，安装教程在消息队列.md。
     
