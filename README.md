@@ -23,8 +23,8 @@
     3，SpringCloud使用Hoxton.SR1。
     4，分布式事务使用txlcn框架实现。
     5，分布式锁使用Redisson框架实现。（注：本项目使用的是哨兵模式。）
-    6，数据库最好使用5.6及以上版本。
-    7，本地安装rabbitmq，安装教程在rabbitmq.md里面
+    6，数据库最好使用5.6及以上版本。mysql库表介绍在数据库表.md。
+    7，本地安装rabbitmq，安装教程在消息队列.md。
     
 ### 能用到的链接
     1，eureka可视化界面 http://localhost:8761
@@ -32,8 +32,11 @@
     3，hystrix仪表盘 http://localhost:8010/hystrix
     4，turbine监控集群(这个是配置过的) http://localhost:8010/turbine.stream?cluster=default
     5，turbine监控信息 http://localhost:8010/clusters
-    5，hystrix本地服务监控 http://localhost:9010/actuator/hystrix.stream
-    6，config手动刷新 http://localhost:9010/actuator/refresh
-    7，bus自动刷新 http://localhost:8030/actuator/bus-refresh
+    6，hystrix本地服务监控 http://localhost:9010/actuator/hystrix.stream
+    7，config手动刷新 http://localhost:9010/actuator/refresh
+    8，bus自动刷新 http://localhost:8030/actuator/bus-refresh
+    9，下单接口，基于zuul http://localhost:8020/order/order/createOrder?userId=1&commodityId=1
+    10，查询用户订单接口，基于zuul http://localhost:8020/user/user/selectUserOrders?userId=1
+    11，测试config接口，基于zuul http://localhost:8020/user/user/configClientTest
     
 ### 作者微信 z967882
