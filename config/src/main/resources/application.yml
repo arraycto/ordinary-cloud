@@ -10,8 +10,16 @@ spring:
         git:
           uri: https://github.com/HyacinthFlower/ordinary-cloud
           search-paths: /ordinarycloud-config/config-repo
-          username:
-          password:
+          username: z967882@126.com
+          password: zhangjiahao123456.com
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
@@ -20,3 +28,13 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+      base-path: /actuator
