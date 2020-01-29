@@ -38,8 +38,8 @@
     8，bus自动刷新 http://localhost:8030/actuator/bus-refresh
     9，rabbitmq可视化界面 http://localhost:15672
     10，zipkin可视化页面 http://localhost:9411
-    9，下单接口，基于zuul http://localhost:8020/order/order/createOrder?userId=1&commodityId=1
-    10，查询用户订单接口，基于zuul http://localhost:8020/user/user/selectUserOrders?userId=1
-    11，测试config接口，基于zuul http://localhost:8020/user/user/configClientTest
+    11，下单接口，基于zuul http://localhost:8020/order/order/createOrder?userId=1&commodityId=1
+    12，查询用户订单接口，基于zuul http://localhost:8020/user/user/selectUserOrders?userId=1
+    13，测试config接口，基于zuul http://localhost:8020/user/user/configClientTest
     
-### 作者微信 z967882
+### qq群292309588
